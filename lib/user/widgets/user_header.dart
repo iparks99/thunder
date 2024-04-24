@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:lemmy_api_client/v3.dart';
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:thunder/shared/avatars/editable_user_avatar.dart';
 
 import 'package:thunder/shared/avatars/user_avatar.dart';
 import 'package:thunder/shared/full_name_widgets.dart';
@@ -92,7 +93,7 @@ class _UserHeaderState extends State<UserHeader> {
                     children: [
                       Row(
                         children: [
-                          UserAvatar(
+                          EditableUserAvatar(
                             person: widget.getPersonDetailsResponse.personView.person,
                             radius: 45.0,
                           ),
