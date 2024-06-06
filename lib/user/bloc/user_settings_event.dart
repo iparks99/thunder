@@ -20,8 +20,11 @@ class UpdateUserSettingsEvent extends UserSettingsEvent {
   final bool? showScores;
   final bool? showBotAccounts;
   final List<int>? discussionLanguages;
+  final String? avatar;
+  final String? banner;
+  final String? bio;
 
-  const UpdateUserSettingsEvent({this.showReadPosts, this.showScores, this.showBotAccounts, this.discussionLanguages});
+  const UpdateUserSettingsEvent({this.showReadPosts, this.showScores, this.showBotAccounts, this.discussionLanguages, this.avatar, this.banner, this.bio});
 }
 
 class GetUserBlocksEvent extends UserSettingsEvent {

@@ -13,6 +13,7 @@ import 'package:thunder/feed/feed.dart';
 import 'package:thunder/settings/widgets/discussion_language_selector.dart';
 import 'package:thunder/settings/widgets/settings_list_tile.dart';
 import 'package:thunder/settings/widgets/toggle_option.dart';
+import 'package:thunder/settings/widgets/update_bio.dart';
 import 'package:thunder/shared/avatars/community_avatar.dart';
 import 'package:thunder/shared/dialogs.dart';
 import 'package:thunder/shared/full_name_widgets.dart';
@@ -167,6 +168,9 @@ class _UserSettingsPageState extends State<UserSettingsPage> {
                               highlightKey: null,
                               setting: null,
                               highlightedSetting: null,
+                            ),
+                            UpdateBio(
+                              settingToHighlight: widget.settingToHighlight,
                             ),
                             ToggleOption(
                               description: l10n.showReadPosts,

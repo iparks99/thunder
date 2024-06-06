@@ -63,6 +63,11 @@ enum LocalSettingsSubCategories {
 
 enum LocalSettings {
   /// -------------------------- Account Settings --------------------------
+  // Bio Settings
+  accountAvatar(name: 'account_avatar', key: 'accountAvatar', category: LocalSettingsCategories.account),
+  accountBanner(name: 'account_banner', key: 'accountBanner', category: LocalSettingsCategories.account),
+  accountBio(name: 'account_bio', key: 'accountBio', category: LocalSettingsCategories.account),
+
   // Discussion Languages
   discussionLanguages(name: 'account_discussion_languages', key: 'discussionLanguages', category: LocalSettingsCategories.account),
 

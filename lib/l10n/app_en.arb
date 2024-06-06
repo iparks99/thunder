@@ -3,6 +3,18 @@
   "@about": {
     "description": "About settings category."
   },
+  "changeAvatar": "Change Avatar",
+  "@changeAvatar": {
+    "description": "Label for setting to change account avatar"
+  },
+  "changeBanner": "Change Banner",
+  "@changeBanner": {
+    "description": "Label for setting to change account banner"
+  },
+  "changeBio": "Change Bio",
+  "@changeBio": {
+    "description": "Label for setting to change account bio"
+  },
   "accessibility": "Accessibility",
   "@accessibility": {},
   "accessibilityProfilesDescription": "Accessibility profiles allows applying several settings at once to accommodate a particular accessibility requirement.",
